@@ -7,6 +7,19 @@
   box-sizing: border-box;
 }
 
+.planetImg {
+  animation: rotation 4s infinite linear;
+}
+
+@keyframes rotation {
+  from {
+    transform: rotateY(0deg);
+  }
+  to {
+    transform: rotateY(360deg);
+  }
+}
+
 @media screen and (max-width: 1200px) {
   .header {
     flex-direction: column;
@@ -20,5 +33,48 @@
   }
   .planetImg {
     width: 25%;
+  }
+  .planetImage {
+    width: 100%;
+  }
+  .planetImParent {
+    padding-top: 2rem;
+    height: 290px;
+  }
+  .planetImParent img {
+    width: 15%;
+  }
+  .planetImgeOuter {
+    width: 90px !important;
+    margin-top: 13rem;
+  }
+  .overview {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0;
+  }
+  .overviewWrapper {
+    display: flex;
+    width: 92%;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .overviewParent {
+    width: 40%;
+  }
+  .buttonsParent {
+    width: 35%;
+  }
+  .overviewParagraph {
+    max-height: 130px;
+    overflow: hidden;
+  }
+  .information {
+    width: 100%;
+  }
+  .infoSpan {
+    font-size: 25px;
   }
 }

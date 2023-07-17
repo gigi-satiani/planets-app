@@ -7,7 +7,7 @@ export const PlanetImage = ({ image, image1, image2, selectedItem }: any) => {
         <figure className="planetImParent w-full flex justify-center relative items-center pt-[12rem]">
           <img
             src={image}
-            className="planetImg w-1/3 relative object-fill"
+            className="planetImg w-1/4 relative object-fill"
             style={{
               display:
                 selectedItem === 1 || selectedItem === 3 ? "block" : "none",
@@ -22,7 +22,7 @@ export const PlanetImage = ({ image, image1, image2, selectedItem }: any) => {
           />
           <img
             src={image2}
-            className="planetImg w-32 absolute mt-80"
+            className="planetImg planetImgeOuter w-32 absolute mt-80"
             style={{ display: selectedItem === 3 ? "block" : "none" }}
             alt="#"
           />
