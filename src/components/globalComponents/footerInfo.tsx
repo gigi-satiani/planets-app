@@ -1,4 +1,3 @@
-import React from "react";
 export const FooterInfo = (props: any) => {
   return (
     <div className="footerInfo w-full  flex justify-center">

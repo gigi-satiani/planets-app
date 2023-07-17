@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import { useState } from "react";
 import jupiter from "./planet-jupiter.svg";
 import jupiterInsideImg from "./planet-jupiter-internal.svg";
 import jupiterImgSurface from "./geology-jupiter.png";

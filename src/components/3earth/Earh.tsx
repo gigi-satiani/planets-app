@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import { useState } from "react";
 import earth from "./planet-earth.svg";
 import earthInside from "./planet-earth-internal.svg";
 import earthImgSurface from "./geology-earth.png";
@@ -6,7 +6,7 @@ import { FooterInfo } from "../globalComponents/footerInfo";
 import { PlanetImage } from "../globalComponents/planetImage";
 import { Overview } from "../globalComponents/overview";
 
-const Earth = (props: any) => {
+const Earth = () => {
   const [selectedItem, setSelectedItem] = useState(1);
   return (
     <div className="mercParent text-white flex flex-wrap">

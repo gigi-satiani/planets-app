@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import { useState } from "react";
 import uranus from "./planet-uranus.svg";
 import uranusInsideImg from "./planet-uranus-internal.svg";
 import uranusSurface from "./geology-uranus.png";

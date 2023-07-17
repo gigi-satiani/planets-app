@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import { useState } from "react";
 import mercury from "./planet-mercury.svg";
 import mercuryInsideImg from "./planet-mercury-internal.svg";
 import mercuryImgSurface from "./geology-mercury.png";
@@ -6,7 +6,7 @@ import { FooterInfo } from "../globalComponents/footerInfo";
 import { PlanetImage } from "../globalComponents/planetImage";
 import { Overview } from "../globalComponents/overview";
 
-const Mercury = (props: any) => {
+const Mercury = () => {
   const [selectedItem, setSelectedItem] = useState(1);
   console.log(selectedItem, "selecteditem mercury");
 

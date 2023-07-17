@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import { useState } from "react";
 import saturn from "./planet-saturn.svg";
 import saturnInsideImg from "./planet-saturn-internal.svg";
 import saturnImgSurface from "./geology-saturn.png";

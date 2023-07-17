@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import { useState } from "react";
 import mars from "./planet-mars.svg";
 import marsInside from "./planet-mars-internal.svg";
 import marsSurface from "./geology-mars.png";

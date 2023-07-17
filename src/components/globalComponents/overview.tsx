@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import { useState } from "react";
 
 export const Overview = (props: any) => {
   const [activeStage, setActiveStage] = useState(1);

@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from "react";
+import { useState } from "react";
 import venusImg from "./planet-venus.svg";
 import venusInsideImg from "./planet-venus-internal.svg";
 import venusImgSurface from "./geology-venus.png";
@@ -6,7 +6,7 @@ import { FooterInfo } from "../globalComponents/footerInfo";
 import { PlanetImage } from "../globalComponents/planetImage";
 import { Overview } from "../globalComponents/overview";
 
-const Venus = (props: any) => {
+const Venus = () => {
   const [selectedItem, setSelectedItem] = useState(1);
   return (
     <div className="mercParent text-white flex flex-wrap">

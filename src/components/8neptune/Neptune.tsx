@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import { useState } from "react";
 import neptun from "./planet-neptune.svg";
 import neptunInside from "./planet-neptune-internal.svg";
 import neptunSurface from "./geology-neptune.png";
