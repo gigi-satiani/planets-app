@@ -69,7 +69,7 @@
   }
   .overviewParagraph {
     max-height: 130px;
-    overflow: hidden;
+    overflow: auto;
   }
   .information {
     width: 100%;
